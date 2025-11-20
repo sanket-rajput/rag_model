@@ -1,4 +1,29 @@
-venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Chroma vector database
 vector_store/
+chroma/
+*.sqlite3
+*.db
+
+# HF model cache
+huggingface/
+cache/
+*.bin
+
+# Streamlit
+.streamlit/
+
+# OS junk
+.DS_Store
+Thumbs.db
